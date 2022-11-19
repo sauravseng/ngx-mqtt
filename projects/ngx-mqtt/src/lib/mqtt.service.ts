@@ -1,5 +1,5 @@
 import {EventEmitter, Inject, Injectable} from '@angular/core';
-import { connect, IClientPublishOptions, IClientSubscribeOptions, ISubscriptionGrant, MqttClient } from 'mqtt-browser';
+import { connect, IClientPublishOptions, IClientSubscribeOptions, ISubscriptionGrant, MqttClient } from 'mqtt-browserified';
 import { Packet } from 'mqtt-packet';
 import * as extend from 'xtend';
 

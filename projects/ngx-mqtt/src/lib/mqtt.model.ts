@@ -1,5 +1,5 @@
 import { Stream } from 'stream';
-import { MqttClient, IClientOptions, IClientPublishOptions, IPacket } from 'mqtt-browser';
+import { MqttClient, IClientOptions, IClientPublishOptions, IPacket } from 'mqtt-browserified';
 
 export enum MqttConnectionState {
   CLOSED,

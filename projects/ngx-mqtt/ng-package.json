@@ -8,7 +8,7 @@
     "LICENSE"
   ],
   "allowedNonPeerDependencies": [
-    "mqtt-browser",
+    "mqtt-browserified",
     "mqtt-packet",
     "xtend"
   ]
