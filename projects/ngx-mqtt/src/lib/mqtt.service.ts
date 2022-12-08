@@ -1,7 +1,7 @@
 import {EventEmitter, Inject, Injectable} from '@angular/core';
 import { connect, IClientPublishOptions, IClientSubscribeOptions, ISubscriptionGrant, MqttClient } from 'mqtt-browserified';
 import { Packet } from 'mqtt-packet';
-import * as extend from 'xtend';
+import extend from 'xtend';
 
 import {BehaviorSubject, merge, Observable, Observer, Subject, Subscription, Unsubscribable, using} from 'rxjs';
 import {filter, publish, publishReplay, refCount} from 'rxjs/operators';
