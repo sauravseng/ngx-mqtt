@@ -37,6 +37,5 @@
   },
   "cli": {
     "analytics": false
-  },
-  "defaultProject": "ngx-mqtt"
+  }
 }

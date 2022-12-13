@@ -1,6 +1,6 @@
 {
   "name": "ngx-mqtt",
-  "version": "9.1.1",
+  "version": "9.2.0",
   "description": "ngx mqtt client library",
   "repository": {
     "type": "git",
@@ -38,11 +38,11 @@
     "test": "ng test --watch false --browsers ChromeHeadless"
   },
   "dependencies": {
-    "@angular/common": "~13.3.12",
-    "@angular/compiler": "^13.3.12",
-    "@angular/core": "^13.3.12",
-    "@angular/platform-browser": "~13.3.12",
-    "@angular/platform-browser-dynamic": "~13.3.12",
+    "@angular/common": "^14.2.12",
+    "@angular/compiler": "^14.2.12",
+    "@angular/core": "^14.2.12",
+    "@angular/platform-browser": "^14.2.12",
+    "@angular/platform-browser-dynamic": "^14.2.12",
     "buffer": "^6.0.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.4.1",
@@ -50,9 +50,9 @@
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "^12.0.0",
-    "@angular-devkit/build-angular": "~13.3.10",
-    "@angular/cli": "~13.3.10",
-    "@angular/compiler-cli": "~13.3.12",
+    "@angular-devkit/build-angular": "^14.2.10",
+    "@angular/cli": "^14.2.10",
+    "@angular/compiler-cli": "^14.2.12",
     "@types/estree": "0.0.48",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.20.13",
@@ -64,7 +64,7 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "mqtt-packet": "6.10.0",
-    "ng-packagr": "^13.3.1",
+    "ng-packagr": "^14.2.2",
     "typescript": "~4.6.4",
     "xtend": "4.0.2",
     "mqtt-browserified": "^4.3.7"
